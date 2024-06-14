@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+}
+main {
+    padding: 2vw;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2vw 0;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 2vw;
+    width: 23%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 0.5vw 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0000FF;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
